@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%238b8398' fill-opacity='0.43' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 10px 30px 60px rgba(0, 0, 0, 0.5);
+    background-color: rgba( 255, 255, 255, 0.5);
+}
+
+.quote-container {
+    width: auto;
+    max-width: 90rem;
+    padding: 2rem 3rem;
+}
+
+.fas {
+    font-size: 6.4rem;
+    color: #000;
+}
+
+
+.quote-text {
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.long-quote {
+    font-size: 2rem;
+}
+
+
+.author {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.buttons-container {
+    padding: 2rem 3rem;
+}
+
+.btn {
+    border: none;
+    background-color: gray;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.twitter-button:hover {
+    color: #00acee;
+
+}
